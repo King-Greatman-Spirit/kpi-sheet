@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  border-right: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+thead th {
+  background-color: #ffcc00;
+  color: #000;
+}
+
+.td_space {
+  background-color: #ffff00;
+}
+
+.category {
+  background-color: #ffcc00;
+  color: #000;
+  text-align: left;
+}
+
+.financial {
+  background-color: #ffe6e6;
+}
+
+.operations {
+  background-color: #e6f7ff;
+}
+
+.hse {
+  background-color: #e6ffe6;
+}
+
+.business-development {
+  background-color: #fff3e6;
+}
+
+.human-capital {
+  background-color: #f9e6ff;
+}
+
+.others {
+  background-color: #e6e6ff;
+}
+
+input,
+textarea,
+select {
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  text-align: center;
+}
+
+.checkbox-container {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+/* Hide the default checkbox */
+.checkbox-container input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Style the custom checkmark */
+.checkmark {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* background-color: #fff; */
+  color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Show the checkmark when the checkbox is checked */
+.checkbox-container input[type="checkbox"]:checked + .checkmark {
+  color: #50c289;
+  font-weight: bolder;
+}
